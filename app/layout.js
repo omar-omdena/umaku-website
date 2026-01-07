@@ -1,13 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { IBM_Plex_Mono } from "next/font/google";
+import Navbar from "./_components/navbar";
+import "./_styles/globals.css";
+import Footer from "./_components/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+const IBMPlexMono = IBM_Plex_Mono({
+  variable: "--font-ibm",
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  // weight: "700",
   subsets: ["latin"],
 });
 
@@ -19,10 +29,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={IBMPlexMono.className}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

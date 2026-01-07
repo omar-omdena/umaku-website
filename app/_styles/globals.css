@@ -1,0 +1,24 @@
+@config "../../tailwind.config.mjs";
+@import "tailwindcss";
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.detect-screen {
+  @apply bg-pink-400 sm:bg-pink-500 md:bg-pink-600 lg:bg-pink-700 xl:bg-pink-800 2xl:bg-pink-900;
+}
+
+.section {
+  @apply py-16 flex flex-col justify-center;
+}
+
+.section-title {
+  @apply font-bold text-lg md:text-xl lg:text-2xl mb-5 text-text-primary;
+}
+
+.section-description {
+  @apply text-sm lg:text-base text-text-muted mb-10;
+}
