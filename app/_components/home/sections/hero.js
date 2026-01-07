@@ -15,7 +15,7 @@ export function Hero() {
     <section className="section bg-[linear-gradient(105.38deg,#62475C_1.9%,#E1D0D6_56.36%,#C1B9CC_118.69%)]">
       <div className="px-3 container mx-auto flex gap-5 ">
         <div className="lg:w-[45%]">
-          <h1 className="mb-5 font-semibold text-white text-3xl sm:text-4xl md:text-5xl leading-10 sm:leading12 md:leading-13">
+          <h1 className="mb-5 font-medium text-white text-3xl sm:text-4xl md:text-5xl leading-10 sm:leading12 md:leading-14">
             <span className="block">One Platform</span>
             Mastered for AI Product Development
           </h1>
