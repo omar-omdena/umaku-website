@@ -24,7 +24,7 @@ export default function AgentsFeedback() {
       title="AI Sprint Review"
       description="AI-generated sprint evaluations covering quality, compliance, risks, and delivery performance."
       featureItems={features}
-      image="/images/homepage/thin-border/agents-feedbackx.png"
+      image="/images/homepage/thin-border/agents-feedback.png"
     />
   );
 }
