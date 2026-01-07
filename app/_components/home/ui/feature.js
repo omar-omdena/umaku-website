@@ -15,7 +15,7 @@ export default function Feature({ title, description, featureItems, image }) {
             {featureItems.map((feat, index) => (
               <li key={index} className="flex gap-2">
                 <Icon icon={feat.icon} width={25} />
-                <span className="">{feat.text}</span>
+                <span>{feat.text}</span>
               </li>
             ))}
           </ul>

@@ -45,7 +45,7 @@ export default function Tabs({ tabs }) {
         })}
       </nav>
       <div className="w-full py-6 text-secondary">
-        <p className="">{ActiveComponent ? <ActiveComponent /> : null}</p>
+        {ActiveComponent ? <ActiveComponent /> : null}
       </div>
     </>
   );
