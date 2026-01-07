@@ -47,10 +47,10 @@ export function OurProcess() {
                   </span>
                 </div>
                 <div className="shrink">
-                  <h4 className="text-text-primary font-bold text-lg mb-1">
+                  <h4 className="text-text-primary font-medium text-xl mb-1">
                     {step.title}
                   </h4>
-                  <p className="font-normal text-text-secondary text-sm">
+                  <p className="font-normal text-text-secondary text-base">
                     {step.description}
                   </p>
                 </div>

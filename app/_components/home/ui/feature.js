@@ -7,11 +7,11 @@ export default function Feature({ title, description, featureItems, image }) {
     <Card>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.25fr] gap-10">
         <div className="flex flex-col justify-center">
-          <h3 className="text-text-primary text-2xl font-semibold mb-3">
+          <h3 className="text-text-primary text-3xl font-medium mb-3">
             {title}
           </h3>
           <p className="text-text-muted mb-10">{description}</p>
-          <ul className="flex flex-col gap-5 text-sm text-text-secondary font-medium">
+          <ul className="flex flex-col gap-5 text-base text-text-secondary font-normal">
             {featureItems.map((feat, index) => (
               <li key={index} className="flex gap-2">
                 <Icon icon={feat.icon} width={25} />

@@ -1,4 +1,4 @@
-import { IBM_Plex_Mono } from "next/font/google";
+import { IBM_Plex_Mono, Ubuntu } from "next/font/google";
 import Navbar from "./_components/navbar";
 import "./_styles/globals.css";
 import Footer from "./_components/footer";
@@ -13,6 +13,12 @@ import Footer from "./_components/footer";
 //   subsets: ["latin"],
 // });
 
+const UbuntuFont = Ubuntu({
+  variable: "--font-ubunto",
+  display: "swap",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+});
 const IBMPlexMono = IBM_Plex_Mono({
   variable: "--font-ibm",
   display: "swap",
@@ -29,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={IBMPlexMono.className}>
+      <body className={UbuntuFont.className}>
         <Navbar />
         {children}
         <Footer />

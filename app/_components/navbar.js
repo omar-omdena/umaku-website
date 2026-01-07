@@ -128,7 +128,7 @@ function Navbar() {
             text="Sign up"
             size={2}
             to="/sign-up"
-            className="font-semibold hidden md:inline-flex"
+            className="hidden md:inline-flex"
           />
         </div>
       </div>
@@ -230,7 +230,7 @@ function Navbar() {
               text="Sign up"
               size={2}
               to="/sign-up"
-              className="font-semibold md:hidden inline-flex"
+              className="md:hidden inline-flex"
             />
           </li>
         </ul>
