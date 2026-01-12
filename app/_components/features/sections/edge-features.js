@@ -139,7 +139,7 @@ export function EdgeFeatures() {
       image: "/images/features/team-recommendation.png",
     },
     {
-      title: "Unified Development Platform",
+      title: "Unified Product Development Platform",
       description: (
         <p>
           Umaku brings all aspects of AI product development into a single
