@@ -28,7 +28,7 @@ export function Hero() {
               {items.map((item, index) => (
                 <li key={index} className="flex items-center gap-3 mb-2.5">
                   <Icon
-                    icon="f7:checkmark-rectangle"
+                    icon="mdi:check-circle-outline"
                     width={20}
                     className="text-white"
                   />

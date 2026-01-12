@@ -6,7 +6,7 @@ export default function Feature({ title, description, featureItems, image }) {
   return (
     <Card>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.25fr] gap-10">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col">
           <h3 className="text-text-primary text-3xl font-medium mb-3">
             {title}
           </h3>

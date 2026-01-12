@@ -35,7 +35,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={UbuntuFont.className}>
+      <body
+        className={`${UbuntuFont.className} selection:bg-primary selection:text-white`}
+      >
         <Navbar />
         {children}
         <Footer />
