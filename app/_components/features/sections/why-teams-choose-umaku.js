@@ -32,7 +32,7 @@ export function WhyTeamsChooseUmaku() {
       <div className="container px-3 mx-auto">
         <div>
           <h2 className="section-title">Why Teams Choose Umaku</h2>
-          <div className="h-fit grid grid-cols-1  gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <div className="h-fit grid grid-cols-1 mt-12 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {items.map((item) => (
               <div className="border-l-4 border-border-muted pl-3">
                 <h3 className="text-text-primary mb-2 font-medium text-base">
