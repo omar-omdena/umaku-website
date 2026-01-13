@@ -16,7 +16,7 @@
 }
 
 .section-title {
-  @apply font-bold text-xl md:text-2xl lg:text-3xl mb-5 text-text-primary;
+  @apply font-bold text-xl md:text-2xl lg:text-3xl mb-8 text-text-primary;
 }
 
 .section-description {
