@@ -1,3 +1,17 @@
+import {
+  FAQs,
+  Hero,
+  PlatformGuideBook,
+  RequestDemo,
+} from "../_components/resources";
+
 export default function Page() {
-  return <h1 className="font-[--font-ibm] font-[600]">resouces page</h1>;
+  return (
+    <>
+      <Hero />
+      <PlatformGuideBook />
+      <FAQs />
+      <RequestDemo />
+    </>
+  );
 }
